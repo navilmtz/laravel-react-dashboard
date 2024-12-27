@@ -1,0 +1,113 @@
+[
+    {
+        "header": "",
+        "items": [
+            {
+                "text": "Dashboard",
+                "icon": "bx bx-home",
+                "available": true,
+                "link": "/dashboard"
+            }
+        ]
+    },
+    {
+        "header": "Settings",
+        "items": [
+            {
+                "text": "Profile Settings",
+                "icon": "bx bx-cog",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Update Profile",
+                        "available": true,
+                        "link": "/profile"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "header": "FORMS & TABLES",
+        "items": [
+            {
+                "text": "Form Elements",
+                "icon": "bx bx-detail",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Basic Input",
+                        "available": true,
+                        "link": "/form/basic-inputs"
+                    },
+                    {
+                        "text": "Input Groups",
+                        "available": true,
+                        "link": "/form/input-groups"
+                    }
+                ]
+            },
+            {
+                "text": "Form Layout",
+                "icon": "bx bx-detail",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Vertical Form",
+                        "available": true,
+                        "link": "/form-layout/vertical-form"
+                    },
+                    {
+                        "text": "Horizontal Form",
+                        "available": true,
+                        "link": "/form-layout/horizontal-form"
+                    }
+                ]
+            },
+            {
+                "text": "Validation",
+                "icon": "bx bx-list-check",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/form-validation.html"
+            },
+            {
+                "text": "Tables",
+                "icon": "bx bx-table",
+                "available": true,
+                "link": "/tables"
+            },
+            {
+                "text": "Datatablse",
+                "icon": "bx bx-grid",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/tables-datatables-basic.html"
+            }
+        ]
+    },
+    {
+        "header": "MISC",
+        "items": [
+            {
+                "text": "Support Sneat",
+                "icon": "bx bx-support",
+                "available": true,
+                "link": "https://github.com/themeselection/sneat-html-admin-template-free/issues"
+            },
+            {
+                "text": "Support Engineer",
+                "icon": "bx bx-support",
+                "available": true,
+                "link": "https://github.com/11Dwiwijaya/react-sneat-bootstrap-admin-template/issues"
+            },
+            {
+                "text": "Documentation",
+                "icon": "bx bx-file",
+                "available": true,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/documentation/"
+            }
+        ]
+    }
+]
