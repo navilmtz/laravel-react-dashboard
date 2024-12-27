@@ -32,7 +32,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex-grow-1">
                       <span className="fw-medium d-block">{user.name}</span>
-                      <small className="text-muted">{user.email}</small>
+                      <small className="text-muted">Admin</small>
                     </div>
                   </div>
                 </a>
@@ -44,6 +44,12 @@ const Navbar = () => {
                 <Link aria-label='go to profile' className="dropdown-item" href={route('profile.edit')}>
                   <i className="bx bx-user me-2"></i>
                   <span className="align-middle">My Profile</span>
+                </Link>
+              </li>
+              <li>
+                <Link aria-label='go to setting' className="dropdown-item" href="#">
+                  <i className="bx bx-cog me-2"></i>
+                  <span className="align-middle">Settings</span>
                 </Link>
               </li>
               <li>

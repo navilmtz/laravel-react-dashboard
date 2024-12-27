@@ -3322,8 +3322,8 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu-end[data-bs-popper] {
-  right: 0;
-  left: auto;
+  right: 0 !important;
+  left: auto !important;
 }
 
 @media (min-width: 576px) {
